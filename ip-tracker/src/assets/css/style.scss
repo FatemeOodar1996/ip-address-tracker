@@ -1,0 +1,23 @@
+@import "./variable";
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    .header {
+        background-image: url(../images/pattern-bg.png);
+        object-fit: cover;
+        min-height: 250px;
+        .search-box {
+         text-align: center;
+        }
+        h1 {
+            color: var(--clr-white);
+            margin-top: 0;
+            padding: 1rem;
+            text-align: center;
+        }
+    }
+    .map {
+        background-color: var(--clr-black);
+    }
+}
